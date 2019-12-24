@@ -19,12 +19,29 @@
       <a href="dokumen<?= $i ?>.php" style="text-decoration: none">
         <div class="my-3 card text-dark bg-white shadow rounded">
           <div class="card-body hover">
-          <strong class="d-block text-gray-dark">Dokumen <?= $i ?></strong>
+            <strong class="d-block text-gray-dark">Dokumen <?= $i ?></strong>
           </div>
         </div>
       </a>
     </div>
     <?php } ?>
+  </div>
+
+  <div class="my-3 p-3 bg-white rounded shadow">
+    <div class="row">
+      <div class="col-md-12">
+        <h4 class="border-bottom border-dark pb-3 mb-0">Kesimpulan</h4>
+        <div class="col-md-1 d-inline-flex">
+        <a href="kesimpulan.php" style="text-decoration: none">
+        <div class="my-3 card text-dark bg-white shadow rounded">
+          <div class="card-body hover">
+              <strong class="d-block text-gray-dark">Kesimpulan</strong>
+            </div>
+          </div>
+        </a>
+        </div>
+      </div>
+    </div>
   </div>
 
 </div>
