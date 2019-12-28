@@ -52,4 +52,3 @@ function cariC2(&$kalimat, &$data, $jumlah){
 	}
 	return $clus;
 }
-?>
